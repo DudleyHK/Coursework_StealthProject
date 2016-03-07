@@ -5,7 +5,7 @@ public class PlayerControl : MonoBehaviour {
 
 	public float speed = 0f;
 	public float rotationSpeed = 0f;
-	public bool inMainRoom = false;
+	public bool inMainRoom = true;
 
 
 

@@ -12,9 +12,7 @@ public class Tags : MonoBehaviour {
 	public const string birdsEyeCam = "BirdsEyeCam";
 
 	/**SAUCER TAGS*/
-	public const string saucerPointA = "SaucerPointA";
-	public const string saucerPointB = "SaucerPointB";
-	public const string saucerNavAgent = "SaucerNavAgent";
+	public const string droneDetectLight = "DroneDetectLight";
 
 
 	public const string alarm = "AlarmLight";

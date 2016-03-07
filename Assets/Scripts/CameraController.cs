@@ -79,6 +79,8 @@ public class CameraController : MonoBehaviour {
 			// if the camera can see the player
 			if (ViewingPosCheck (checkPoints [i])) 
 			{
+				Debug.Log (checkPoints [i]);
+
 				// break out of the loop
 				break;
 			}
@@ -86,7 +88,7 @@ public class CameraController : MonoBehaviour {
 		
 		// Lerp the camera position between its current position and its new position
 		transform.position = Vector3.Lerp (transform.position, newPosition, nonMainRoomSmoothDamp * Time.deltaTime);
-		
+
 		// Make sure the camera is looking at the player
 		SmoothLookAt (nonMainRoomSmoothDamp);
 	}
